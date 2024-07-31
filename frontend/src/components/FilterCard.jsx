@@ -11,11 +11,11 @@ const fitlerData = [
     },
     {
         fitlerType: "Industry",
-        array: ["Frontend Developer", "Backend Developer", "FullStack Developer"]
+        array: ["Institutes", "Factories", "Hostpitals"]
     },
     {
         fitlerType: "Salary",
-        array: ["0-40k", "42-1lakh", "1lakh to 5lakh"]
+        array: ["0-40k", "1-2 lakh", "1 lakh to 5 lakh"]
     },
 ]
 
