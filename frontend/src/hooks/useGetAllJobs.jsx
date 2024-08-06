@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 const useGetAllJobs = () => {
+    console.log(JOB_API_END_POINT)
     const dispatch = useDispatch();
     const {searchedQuery} = useSelector(store=>store.job);
     useEffect(()=>{
